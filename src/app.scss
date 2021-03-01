@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Domine', serif;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
 }
 .navbar{
     padding: 0 40px 0 20px;
@@ -10,7 +13,7 @@
     justify-content: space-between;
     position: fixed;
     top: 0;
-    height: 90px;
+    height: 95px;
     border-bottom: 1px solid #ccc;
     width: 100vw;
     background: #fff;
@@ -37,8 +40,9 @@
             list-style-type: none;
 
             li{
-            margin-right: 20px;
+            margin-right: 40px;
             color: #5D6166;
+            font-size: 14px;
 
                 &:hover{
                     cursor: pointer;
@@ -97,7 +101,40 @@
     }
     .answer{
         line-height: 1.8em;
-        font-size: 14px;
-        color: #212121
+        font-size: 13px;
+        color: #222121;
+        margin-bottom: 80px
+    }
+}
+footer{
+    width: 100%;
+    background: #F5F5F5;
+    height: 60px;
+    align-items: center;
+    display: flex;
+
+    .footer-content{
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .footer-list-menu{
+            display: flex;
+    
+            & li{
+                list-style-type: none;
+                margin-right: 18px;
+                font-size: 10px;
+                color: #A2A2A2;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+        .right-content select{
+            width: 180px
+        }
     }
 }
