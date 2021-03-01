@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Domine', serif;
+}
+.navbar{
+    padding: 0 40px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 90px;
+    border-bottom: 1px solid #ccc;
+    width: 100vw;
+    background: #fff;
+
+    .left-part{
+
+
+        .upper-part{
+            margin: 20px 0 20px 0;
+
+            .logo{
+                width: 70px;
+            }
+            .privacy-terms{
+            color: #5D6166;
+            font-size: 20px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .lower-part ul{
+            display: flex;
+            list-style-type: none;
+
+            li{
+            margin-right: 20px;
+            color: #5D6166;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .right-part{
+        display: flex;
+        align-items: center;
+
+        .accedi-button{
+            width: 95px;
+            height: 35px;
+            background: #3474E0;
+            text-align: center;
+            line-height: 35px;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-left: 20px;
+
+            &:hover{
+                background: #2B7DE9;
+                box-shadow: 1px 1px 1px #8eb7ec;
+                cursor: pointer;
+            }
+        }
+        .dot-menu{
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            text-align: center;
+
+            i{
+                color: #5F6368
+            }
+            &:hover{
+                background: #F0F0F0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.container{
+    width: 1000px;
+    margin: 200px auto 0 auto;
+
+    .question{
+        line-height: 1.5em;
+        color: #3C4043;
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+    .answer{
+        line-height: 1.8em;
+        font-size: 14px;
+        color: #212121
+    }
+}

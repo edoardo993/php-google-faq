@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Domine", serif;
+}
+
+.navbar {
+  padding: 0 40px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  height: 90px;
+  border-bottom: 1px solid #ccc;
+  width: 100vw;
+  background: #fff;
+}
+.navbar .left-part .upper-part {
+  margin: 20px 0 20px 0;
+}
+.navbar .left-part .upper-part .logo {
+  width: 70px;
+}
+.navbar .left-part .upper-part .privacy-terms {
+  color: #5D6166;
+  font-size: 20px;
+}
+.navbar .left-part .upper-part:hover {
+  cursor: pointer;
+}
+.navbar .left-part .lower-part ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar .left-part .lower-part ul li {
+  margin-right: 20px;
+  color: #5D6166;
+}
+.navbar .left-part .lower-part ul li:hover {
+  cursor: pointer;
+}
+.navbar .right-part {
+  display: flex;
+  align-items: center;
+}
+.navbar .right-part .accedi-button {
+  width: 95px;
+  height: 35px;
+  background: #3474E0;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-left: 20px;
+}
+.navbar .right-part .accedi-button:hover {
+  background: #2B7DE9;
+  box-shadow: 1px 1px 1px #8eb7ec;
+  cursor: pointer;
+}
+.navbar .right-part .dot-menu {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.navbar .right-part .dot-menu i {
+  color: #5F6368;
+}
+.navbar .right-part .dot-menu:hover {
+  background: #F0F0F0;
+  cursor: pointer;
+}
+
+.container {
+  width: 1000px;
+  margin: 200px auto 0 auto;
+}
+.container .question {
+  line-height: 1.5em;
+  color: #3C4043;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+.container .answer {
+  line-height: 1.8em;
+  font-size: 14px;
+  color: #212121;
+}

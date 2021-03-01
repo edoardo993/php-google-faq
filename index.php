@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="dist/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet"> 
+    <title>GOOGLE FAQS</title>
 </head>
 <body>
 
@@ -76,23 +81,48 @@
     ?>
 
     <nav class="navbar">
-    
+
+        <div class="left-part">
+            <div class="upper-part">
+                <img src="img/google.png" class="logo">
+                <span class="privacy-terms">Privacy e termini</span>
+            </div>
+
+            <div class="lower-part">
+                <ul>
+                    <li>Introduzione</li>
+                    <li>Norme sulla privacy</li>
+                    <li>Termini di servizio</li>
+                    <li>Tecnologie</li>
+                    <li>Domande frequenti</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-part">
+            <div class="dot-menu"><i class="fas fa-th"></i></div>
+            <div class="accedi-button">Accedi</div>
+        </div>
     </nav>
-    
+
     <div class="container">
         
         <?php
         foreach($faqs as $info){
         ?>
 
-        <h3><?php echo $info['question'] ?></h3>
-        <p><?php echo $info['answer'] ?></p>
+        <h2 class="question"><?php echo $info['question'] ?></h2>
+        <p class="answer"><?php echo $info['answer'] ?></p>
 
         <?php
         }
         ?>
 
     </div>
+
+    <footer>
+        
+    </footer>
 
 </body>
 </html>
