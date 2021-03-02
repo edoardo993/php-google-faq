@@ -19,8 +19,8 @@
     $faqs = [
 
         [
-            'question' => 'Come state implementando la recente decisione della Corte di giustizia dell\'Unione europea (CGUE) relativa al diritto all\'oblio?',
-            'answer' => 'La recente <a href="#">decisione della Corte di giustizia dell\'Unione europea</a> ha profonde conseguenze per i motori di ricerca in Europa. La Corte
+            'question' => '<h2 class="question">Come state implementando la recente decisione della Corte di giustizia dell\'Unione europea (CGUE) relativa al diritto all\'oblio?</h2>',
+            'answer' => '<p class="answer">La recente <a href="#">decisione della Corte di giustizia dell\'Unione europea</a> ha profonde conseguenze per i motori di ricerca in Europa. La Corte
             ha stabilito che alcuni utenti hanno il diritto di chiedere ai motori di ricerca come Google di rimuovere risultati relativi a chiavi di ricerca che
             includono il proprio nome. Per poter essere rimossi, i risultati visualizzati devono essere inadeguati, irrilevanti o non più rilevanti, o eccessivi.<br><br>
 
@@ -42,11 +42,11 @@
             
             Quando cerchi un nome, potresti trovare una notifica in cui viene spiegato che i risultati potrebbero essere stati modificati nel rispetto delle leggi
             europee per la protezione dei dati. Mostriamo questa notifica agli utenti europei quando cercano la maggior parte dei nomi, non soltanto le pagine che
-            sono state soggette a una rimozione.'
+            sono state soggette a una rimozione.</p>'
         ],
         [
-            'question' => 'Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?',
-            'answer' => 'Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. Per noi è imperativo offrire un\'elevata sicurezza
+            'question' => '<h2 class="question">Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?</h2>',
+            'answer' => '<p class="answer">Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. Per noi è imperativo offrire un\'elevata sicurezza
             e assicurarti che le tue informazioni sono al sicuro e accessibili quando ne hai bisogno.<br><br>
 
             Siamo costantemente al lavoro per garantire un\'elevata sicurezza, proteggere la tua privacy e rendere Google ancora più efficace ed efficiente per te.
@@ -56,28 +56,50 @@
             
             Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel <a href="#">Centro Google per la sicurezza online</a>.<br><br>
             
-            <a href="#">Scopri</a> quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo.'
+            <a href="#">Scopri</a> quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo.</p>'
         ],
         [
-            'question' => 'Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?',
-            'answer' => 'I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere
+            'question' => '<h2 class="question">Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?</h2>',
+            'answer' => '<p class="answer">I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere
             i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente di rimuovere i contenuti dal Web. Se desideri rimuovere
             qualcosa dal Web, devi <a href="#">contattare il webmaster</a> del sito su cui sono pubblicati i contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi
             delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di
             ricerca di Google, <a href="#">fai clic qui</a>. Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l\'aggiornamento, le informazioni non verranno
             più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente, è inoltre possibile <a href="#">visitare la nostra pagina di assistenza
-            per avere ulteriori informazioni</a>.'
+            per avere ulteriori informazioni</a>.</p>'
         ],
         [
-            'question' => 'Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?',
-            'answer' => 'In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione
+            'question' => '<h2 class="question">Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?</h2>',
+            'answer' => '<p class="answer">In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione
             anche l\'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di <a href="#">URL referrer</a>. Talvolta, l\'URL della pagina dei risultati di ricerca
             potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi
             i termini di ricerca non vengono inviati come parte dell\'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser
             meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili <a href="#">qui</a>. Le query di ricerca o le informazioni contenute nell\'URL referrer potrebbero essere
             disponibili mediante Google Analytics o un\'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative
-            all\' esatte parole chiave che hanno determinato il clic su un annuncio.'
+            all\' esatte parole chiave che hanno determinato il clic su un annuncio.</p>'
         ]
+    ];
+    $navLinks = [
+        '<li>Introduzione</li>',
+        '<li>Norme sulla privacy</li>',
+        '<li>Termini di servizio</li>',
+        '<li>Tecnologie</li>',
+        '<li>Domande frequenti</li>'
+    ];
+    $footerList = [
+        '<li>Google</li>',
+        '<li>Tutto su Google</li>',
+        '<li>Privacy</li>',
+        '<li>Termini</li>'
+    ];
+    $footerLanguages = [
+        '<option value="">Italiano</option>',
+        '<option value="">English</option>',
+        '<option value="">Deutsch</option>',
+        '<option value="">Español</option>',
+        '<option value="">Filipino</option>',
+        '<option value="">Français</option>',
+        '<option value="">Polski</option>'
     ]
     
     ?>
@@ -92,11 +114,13 @@
 
             <div class="lower-part">
                 <ul>
-                    <li>Introduzione</li>
-                    <li>Norme sulla privacy</li>
-                    <li>Termini di servizio</li>
-                    <li>Tecnologie</li>
-                    <li>Domande frequenti</li>
+                
+                    <?php
+                        foreach($navLinks as $link){
+                            echo $link;
+                        }
+                    ?>
+
                 </ul>
             </div>
         </div>
@@ -110,14 +134,10 @@
     <main class="container">
         
         <?php
-        foreach($faqs as $info){
-        ?>
-
-        <h2 class="question"><?php echo $info['question'] ?></h2>
-        <p class="answer"><?php echo $info['answer'] ?></p>
-
-        <?php
-        }
+            foreach($faqs as $info){
+                echo $info['question'];
+                echo $info['answer'];
+            }
         ?>
 
     </main>
@@ -129,10 +149,13 @@
             <div class="left-content">
 
                 <ul class="footer-list-menu">
-                    <li>Google</li>
-                    <li>Tutto su Google</li>
-                    <li>Privacy</li>
-                    <li>Termini</li>
+
+                    <?php
+                        foreach($footerList as $link){
+                            echo $link;
+                        }
+                    ?>
+
                 </ul>
 
             </div>
@@ -142,14 +165,12 @@
                 <i class="fas fa-globe"></i>
 
                 <select name="" id="">
-
-                    <option value="">Italiano</option>
-                    <option value="">English</option>
-                    <option value="">Deutsch</option>
-                    <option value="">Español</option>
-                    <option value="">Filipino</option>
-                    <option value="">Français</option>
-                    <option value="">Polski</option>
+                    
+                    <?php
+                        foreach($footerLanguages as $language){
+                            echo $language;
+                        }
+                    ?>
 
                 </select>
 
